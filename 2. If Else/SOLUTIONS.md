@@ -32,3 +32,10 @@ if __name__ == '__main__':
 def is_leap(year):
     return True if not year % 400 else False if not year % 100 else False if year % 4 else True
 ```
+
+## [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem)
+
+```python
+def bonAppetit(bill, k, b):
+    print('Bon Appetit' if (i := (sum(bill) - bill[k]) // 2) == b else b - i)
+```

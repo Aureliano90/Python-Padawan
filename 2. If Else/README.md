@@ -13,4 +13,12 @@ https://www.runoob.com/python3/python3-loop.html
 
 * [Finding the percentage](https://www.hackerrank.com/challenges/finding-the-percentage/problem)
 * [Find the Runner-Up Score!](https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem)
+
+### 加分题
+
+用一行代码解决以下问题。
+
 * [Write a function](https://www.hackerrank.com/challenges/write-a-function/problem)
+* [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem)
+
+提示：https://zhuanlan.zhihu.com/p/351140647
