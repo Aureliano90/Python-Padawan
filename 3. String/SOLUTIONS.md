@@ -48,15 +48,12 @@ def print_full_name(first, last):
 
 ```python
 def print_formatted(number):
-    width = len(f'{number:b}')
-    for i in range(1, number+1):
-        print(f'{i:{width}d}', f'{i:{width}o}', f'{i:{width}X}', f'{i:{width}b}')
+    print(''.join([f"{i:{(width := len(f'{number:b}'))}d} {i:{width}o} {i:{width}X} {i:{width}b}\n" for i in range(1, number + 1)]))
 ```
 
 ## [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 
 ```python
 def timeConversion(s):
-    return f'{int(s[0:2]) + 12}' + s[2:len(s) - 2] if s.endswith('PM') and s[:2] != '12' else '12' + s[2:len(
-        s) - 2] if not s.endswith('AM') else '00' + s[2:len(s) - 2] if s[:2] == '12' else s[:len(s) - 2]
+    return f'{int(s[0:2]) + 12}' + s[2: -2] if s.endswith('PM') and s[:2] != '12' else '12' + s[2: -2] if not s.endswith('AM') else '00' + s[2: -2] if s[:2] == '12' else s[: -2]
 ```

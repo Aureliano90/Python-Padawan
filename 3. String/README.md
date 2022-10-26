@@ -19,9 +19,9 @@ https://www.runoob.com/python3/python3-inputoutput.html
 * [Capitalize!](https://www.hackerrank.com/challenges/capitalize/problem)
 * [sWAP cASE](https://www.hackerrank.com/challenges/swap-case/problem)
 * [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name/problem)
-* [String Formatting](https://www.hackerrank.com/challenges/python-string-formatting/problem)
 
 ### 加分题
 
 用一行代码解决。
 * [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
+* [String Formatting](https://www.hackerrank.com/challenges/python-string-formatting/problem)
