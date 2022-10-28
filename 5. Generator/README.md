@@ -7,6 +7,11 @@
 * https://eastlakeside.gitbook.io/interpy-zh/generators
 * https://pythonhowto.readthedocs.io/zh_CN/latest/iterator.html
 
+### yield from
+
+* `*`[展开嵌套的序列](https://python3-cookbook.readthedocs.io/zh_CN/latest/c04/p14_flattening_nested_sequence.html)
+* `*`[使用生成器代替线程](https://python3-cookbook.readthedocs.io/zh_CN/latest/c12/p12_using_generators_as_alternative_to_threads.html)
+
 ## 作业
 
 [牛顿近似法](https://en.wikipedia.org/wiki/Newton%27s_method)常被用于数值求解方程。假设有一方程为$f(x)
