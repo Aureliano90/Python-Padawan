@@ -14,3 +14,6 @@
 ### 加分题
 
 * [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem)
+
+三行以下解决：
+* [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem)

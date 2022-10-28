@@ -21,6 +21,9 @@ def solve(s):
         else:
             res += c
     return res
+
+def solve(s):
+    return ' '.join([a.capitalize() for a in s.split(' ')])
 ```
 
 ## [sWAP cASE](https://www.hackerrank.com/challenges/swap-case/problem)
@@ -35,6 +38,9 @@ def swap_case(s: str):
             else:
                 s[i] = c.lower()
     return ''.join(s)
+
+def swap_case(s):
+   return s.swapcase()
 ```
 
 ## [What's Your Name?](https://www.hackerrank.com/challenges/whats-your-name/problem)
@@ -55,5 +61,5 @@ def print_formatted(number):
 
 ```python
 def timeConversion(s):
-    return f'{int(s[0:2]) + 12}' + s[2: -2] if s.endswith('PM') and s[:2] != '12' else '12' + s[2: -2] if not s.endswith('AM') else '00' + s[2: -2] if s[:2] == '12' else s[: -2]
+    return f'{int(s[:2]) + 12}' + s[2: -2] if s.endswith('PM') and s[:2] != '12' else '00' + s[2: -2] if s[-2:] == 'AM' and s[:2] == '12' else s[: -2]
 ```

@@ -26,3 +26,11 @@ def permutationEquation(p):
     x = [p[p[y] - 1] for y in range(len(p))]
     return sorted(range(1, len(p) + 1), key=lambda y: x[y - 1])
 ```
+
+## [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem)
+
+```python
+if __name__ == '__main__':
+    records = sorted([tuple(reversed((input(), float(input()))) ) for _ in range(int(input()))])
+    print('\n'.join([r[1] for r in records if r[0] == sorted(set([r[0] for r in records]))[1]]))
+```
