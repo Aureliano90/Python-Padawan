@@ -23,8 +23,7 @@ def compareTriplets(a, b):
 
 ```python
 def permutationEquation(p):
-    x = [p[p[y] - 1] for y in range(len(p))]
-    return sorted(range(1, len(p) + 1), key=lambda y: x[y - 1])
+    return sorted(range(1, len(p) + 1), key=lambda y: p[p[y - 1] - 1])
 ```
 
 ## [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem)
