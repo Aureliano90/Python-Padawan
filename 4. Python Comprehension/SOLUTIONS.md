@@ -26,6 +26,14 @@ def permutationEquation(p):
     return sorted(range(1, len(p) + 1), key=lambda y: p[p[y - 1] - 1])
 ```
 
+## [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem)
+
+```python
+if __name__ == '__main__':
+    x, y, z, n = int(input()), int(input()), int(input()), int(input())
+    print([[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n])
+```
+
 ## [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem)
 
 ```python
