@@ -23,7 +23,7 @@ def compareTriplets(a, b):
 
 ```python
 def permutationEquation(p):
-    return sorted(range(1, len(p) + 1), key=lambda y: p[p[y - 1] - 1])
+    return sorted(p, key=lambda y: p[p[y - 1] - 1])
 ```
 
 ## [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem)
@@ -38,6 +38,6 @@ if __name__ == '__main__':
 
 ```python
 if __name__ == '__main__':
-    records = sorted([tuple(reversed((input(), float(input()))) ) for _ in range(int(input()))])
+    records = sorted([tuple(reversed((input(), float(input())))) for _ in range(int(input()))])
     print('\n'.join([r[1] for r in records if r[0] == sorted(set([r[0] for r in records]))[1]]))
 ```
